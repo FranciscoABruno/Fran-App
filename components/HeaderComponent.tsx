@@ -24,12 +24,12 @@ const HeaderComponent = (props: HeaderProps) => {
 
 const styles = StyleSheet.create({
   topContainer: {
-    height: 100, // Cambia a un valor fijo para probar
+    height: 100,
     paddingTop: 50,
     paddingBottom: 20,
     width: "100%",
     justifyContent: "flex-start",
-    alignItems: "center", // Centra el contenido
+    alignItems: "center",
   },
 
   firsttoprowContainer: {
