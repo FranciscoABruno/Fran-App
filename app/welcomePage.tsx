@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <ImageBackground source={backgroundImage} style={styles.backgroundImage}>
       <View style={styles.container}>
-        {/* Texto con fondo gradiente */}
+        {/* Texto con el fondo gradiente */}
         <LinearGradient
           colors={["#14875e", "#44c38f"]} // Colores del gradiente
           style={styles.gradientBackground}
@@ -18,12 +18,12 @@ export default function Page() {
           <Text style={styles.title}>! Bienvenido a mi app !</Text>
         </LinearGradient>
 
-        {/* Imagen en el centro */}
+        {/* Imagen del centro */}
         <View style={styles.imageContainer}>
           <Image source={centerImage} style={styles.centerImage} />
         </View>
 
-        {/* Boton en la parte de abajo */}
+        {/* Boton de la parte de abajo */}
         <View style={styles.buttonContainer}>
           <Link href="./profile" style={styles.button}>
             <Text style={styles.buttonText}>Click aquí!</Text>

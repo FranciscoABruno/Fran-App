@@ -23,15 +23,28 @@ export default () => {
       <Tabs.Screen
         name="aboutme"
         options={{
-          title: "aboutme",
-          tabBarIcon: () => <Fontisto name="person" size={24} color="#21a875" />,
+          title: "About Me",
+          tabBarIcon: () => (
+            <Fontisto name="person" size={24} color="#21a875" />
+          ),
         }}
       />
       <Tabs.Screen
         name="repository"
         options={{
-          title: "repository",
-          tabBarIcon: () => <Fontisto name="qrcode" size={24} color="#21a875" />,
+          title: "Repository",
+          tabBarIcon: () => (
+            <Fontisto name="qrcode" size={24} color="#21a875" />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="shopping"
+        options={{
+          title: "Shopping List",
+          tabBarIcon: () => (
+            <Fontisto name="shopping-basket" size={24} color="#21a875" />
+          ),
         }}
       />
     </Tabs>
